@@ -11,7 +11,7 @@
     <script type="text/javascript" src="https://cdn.bootcss.com/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
     <script src="./lib/layui/layui.js" charset="utf-8"></script>
     <script type="text/javascript" src="./js/xadmin.js"></script>
-    <script src="http://at.alicdn.com/t/font_1044938_b5zew2ko5hf.js"></script>
+    <script src="http://at.alicdn.com/t/font_1044938_wm1ps7y75ea.js"></script>
     <style>
 
     </style>
@@ -19,14 +19,17 @@
 <body>
     <!-- 顶部开始 -->
     <div class="container">
-        <div class="logo"><a href="./index.html">X-ADMIN V1.1</a></div>
+        <div class="logo">
+            <a href="./index.html" class="logo-ico"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-project"></use></svg></a>
+            <a href="./index.html" class="logo-name">MAOA</a>
+        </div>
         <div class="open-nav">
             <svg class="icon" aria-hidden="true">
                 <use href="#icon-caidan"></use>
             </svg>
         </div>
         <ul class="layui-nav right" lay-filter="">
-          <li class="layui-nav-item">
+          <li class="layui-nav-item nav-item">
             <a href="javascript:;">admin</a>
             <dl class="layui-nav-child"> <!-- 二级菜单 -->
               <dd><a href="">个人信息</a></dd>
@@ -47,9 +50,9 @@
                 <li class="list current" style="border-top: 1px solid hsla(0,0%,100%,.1);">
                     <a href="javascript:;" class="reset">
                         <svg class="icon" aria-hidden="true">
-                            <use xlink:href="#icon-homeconstruction"></use>
+                            <use xlink:href="#icon--statistics"></use>
                         </svg>
-                        欢迎页面
+                        统计
                         <i class="icon_i">
                             <svg class="icon_s" aria-hidden="true">
                                 <use xlink:href="#icon-tiaozhuan"></use>
@@ -60,9 +63,9 @@
                 <li class="list">
                     <a href="javascript:;">
                         <svg class="icon" aria-hidden="true">
-                            <use href="#icon-caidan"></use>
+                            <use href="#icon-ego-blog"></use>
                         </svg>
-                        会员管理
+                        文章
                         <i class="icon_i">
                             <svg class="icon_s" aria-hidden="true">
                                 <use xlink:href="#icon-tiaozhuan"></use>
